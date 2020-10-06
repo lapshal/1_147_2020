@@ -5,9 +5,9 @@ int main()
 {
 setlocale (LC_ALL, "ru");
 int a, b, c, d;
-cout << "Ââåäèòå 4 ÷èñëà" << endl;
+cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 4 Ñ‡Ð¸ÑÐ»Ð°" << endl;
 cin >> a >> b >> c >> d;
-cout << "Ñðåäíåå àðèôìåòè÷åñêîå ÷åòûðåõ ÷èñåë =" << (double)(a + b + c + d) / 4 << endl; 
+cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÑ‚Ð¸Ñ… Ñ‡Ð¸ÑÐµÐ» =" << (double)(a + b + c + d) / 4 << endl; 
 _getch();
 return 0;
 }
