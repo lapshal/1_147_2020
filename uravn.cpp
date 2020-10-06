@@ -2,13 +2,13 @@
 #include <math.h>
 using namespace std;
 
-int main()
+double main()
 {
 	std::puts(" please enter a,b and c for `ax^2+bx+c=0`:");
-	float a = 0;
-	float b = 0;
-	float c = 0;
-	float D = 0;
+	double a = 0;
+	double b = 0;
+	double c = 0;
+	double D = 0;
 
 	scanf_s("%f %f %f", &a, &b, &c);
 	getchar();
