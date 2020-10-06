@@ -42,15 +42,18 @@ int main()
 		D = sqrt(D);
 		x1 = (-b - D) / (2 * a);
 		x2 = (-b + D) / (2 * a);
-		std::printf("solution:x1=%f\n x2=%f\n", x1, x2);
+		std::printf("solution:\nx1= %f\nx2= %f\n ", x1, x2);
 
 	}
 
-	if (D == 0 && a != 0 && b != 0 && c != 0); // здесь что-то не так, выводит всегда это почему-то
+	if (D == 0) // && a != 0 && b != 0 && c != 0); // здесь что-то не так, выводит всегда это почему-то
 	{
-		double x3;
-		x3 = (-b) / (2 * a);
-		std::printf("\nsolution: %f\n", x3);
+		if (a != 0 && b != 0 && c != 0)
+		{
+			double x3;
+			x3 = (-b) / (2 * a);
+			std::printf("\nsolution: %f\n", x3);
+		}
 	}
 
 
