@@ -29,8 +29,8 @@ int main()
 		}
 		if (D > 0)
 		{
-			x1 = -b + sqrt(D) / 2 * a;
-			x2 = -b - sqrt(D) / 2 * a;
+			x1 = (-b + sqrt(D)) / 2 * a;
+			x2 = (-b - sqrt(D)) / 2 * a;
 			std::cout << "Solution: (" << x1 << "," << x2 << ")";
 		}
 	}
